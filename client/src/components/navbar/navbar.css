@@ -1,0 +1,45 @@
+/* Base styles for larger screens */
+.navbar {
+  height: 50px;
+  background-color: #003580;
+  display: flex;
+  justify-content: center;
+}
+
+.navContainer {
+  width: 100%;
+  max-width: 1024px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-weight: 500;
+}
+
+.navButton {
+  margin-left: 20px;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  color: #003580;
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  .navContainer {
+    padding: 0 10px;
+  }
+
+  .logo {
+    font-size: 18px;
+  }
+
+  .navButton {
+    margin-left: 10px;
+    padding: 3px 8px;
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,22 @@
+/* Base styles for larger screens */
+.homeContainer {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.homeTitle {
+  width: 1024px;
+  font-size: 20px;
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  .homeTitle {
+    width: 100%; /* Occupy full width of the container */
+    padding: 0 20px; /* Add horizontal padding for smaller screens */
+    font-size: 18px; /* Adjust font size for smaller screens */
+  }
+}
